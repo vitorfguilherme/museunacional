@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title> 
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <h1><a href="#"> Museu Nacional</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">exposições</a></li>
+                    <li><a href="#">pesquisa</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">videos</a></li>
+                    <li><a href="#">fotos</a></li>
+                    <li><a href="#">contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="conteudo">
+            <section id="capa">
+                <img src="img/museu.png" alt="Foto Musel Nacional">
+            </section>
+            <section id="post"> 
+                <article class="art" id="video">
+                    <h3>Vídeo:conheça o museu</h3>
+                    <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </article>
+                <article class="art" id="mapa">
+                    <h3>Mapa: encontre o museu</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29401.650490072694!2d-43.259487884375!3d-22.90576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1680211402007!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+                <article class="art" id="exp">
+                    <h3>exposições</h3>
+                    <ul>
+                        <li><a href="#">Os assustadores insetos</a></li>
+                        <li><a href="#">O crânio de Luiza, a mulher mais antiga do Brasil</a></li>
+                        <li><a href="#">Preguiça gigante e trige-dente-de-sabre</a></li>
+                        <li><a href="#">Plantas do Brasil Central</a></li>
+                        <li><a href="#">Teresa Cristina: A imperatriz Arqueóloga</a></li>
+                        <li><a href="#">Arte com Dinossauros</a></li>
+                        <li><a href="#">Veja todos (65)</a></li>
+                    </ul>
+                </article>
+                <article class="art" id="hist">
+                    <h3>200 anos de história</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae accusantium sunt, fugiat suscipit natus tenetur dolorem ipsam asperiores at deserunt repudiandae optio ratione ab inventore officia autem ipsa minus ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste minima dolorum, tenetur ipsum quam in ea dolor esse magnam molestias fuga non minus nihil ratione accusamus debitis? Laboriosam, dolorem harum.</p>
+                </article>
+            </section>
+        </div>
+        <aside>
+            <section id="depoi">
+                <img src="img/depoimento.png" alt="depoimento">
+            </section>
+            <section id="visita">
+                <h4>Faça uma visita</h4>
+                <form action="" method="get">
+                    <fieldset>
+                        <legend>Faça uma visita</legend>
+                        <label for="data">Data</label>
+                        <input class="campo" type="date" name="data" id="data">
+                        
+                        <label for="qtd">Qtd pessoas </label>
+                        <input style="width: 30px;" type="number" name="qtd" id="qtd" value="1" width="30px" >
+                        
+                        <input class="botao" type="button" value="Verificar disponibilidade">
+                    </fieldset>
+                </form>
+            </section>
+            <section id="galeria">
+                <h4>Galeria de fotos</h4>
+                <a href="#">
+                    <img src="img/imagem1.jpg" alt="galeria de fotos">
+                </a>
+                <a href="#">
+                    <img src="img/imagem2.jpg" alt="galeria de fotos">
+                </a>
+                <a href="#">
+                    <img src="img/imagem3.jpg" alt="galeria de fotos">
+                </a>
+                <a href="#">
+                    <img src="img/imagem4.jpg" alt="galeria de fotos">
+                </a>
+            </section>
+        </aside>
+        <footer>
+            <p>
+                <a href="#">Home</a>
+                <a href="#">Exposições</a>
+                <a href="#">Pesquisa</a>
+                <a href="#">Acervo</a>
+                <a href="#">Vídeos</a>
+                <a href="#">Fotos</a>
+                <a href="#">Contato</a>
+            </p>
+            <p>
+                2019 <a href="#">Museu Nacional</a> - Todos os direitos reservados - Projeto Udemy
+            </p>
+        </footer>
+    </div>
+    
+</body>
+</html>
